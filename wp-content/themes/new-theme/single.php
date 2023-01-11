@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 get_header();
 ?>
@@ -14,7 +14,7 @@ get_header();
                             echo get_the_post_thumbnail();
 
                             echo get_the_content();
-
+                            echo "<h2>songnuyen!</h2>";
 
                         }
                     }
@@ -25,4 +25,4 @@ get_header();
         </div>
 
 <?php
-get_footer();
+get_footer(); 
